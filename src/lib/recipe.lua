@@ -2,7 +2,7 @@ function recipe(name, ingredients)
     return {
         type = "recipe",
         name = name,
-        enabled = true,
+        enabled = false,
         ingredients = ingredients,
         result = name
     }
