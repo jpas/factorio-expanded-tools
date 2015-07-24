@@ -15,6 +15,7 @@ function get_tier(tier)
 
     local ratios = {
         damage = steel_axe.damage / iron_axe.damage,
+        durability = steel_axe.durability - iron_axe.durability,
         speed = steel_axe.speed / iron_axe.speed
     }
 
@@ -25,7 +26,7 @@ function get_tier(tier)
     else
         return {
             damage = math.floor(iron_axe.damage * math.pow(ratios.damage, tier)),
-            durability = math.floor(iron_axe.durability + tier * 1000),
+            durability = math.floor(iron_axe.durability + ratios.durability * tier),
             order = string.char(iron_axe.order:byte(1) + tier),
             speed = math.floor(iron_axe.speed * math.pow(ratios.speed, tier))
         }
