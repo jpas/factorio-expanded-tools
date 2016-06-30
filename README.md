@@ -1,6 +1,6 @@
 # Expanded Tools
 
-This mod adds 3 more tiers of mining tools to the game. Whilst keeping game
+This mod adds 3 more tiers of mining tools to the game whilst keeping game
 balance in mind.
 
 These are the new tiers:
@@ -25,9 +25,9 @@ These are the new tiers:
     * Durability: 8000 
     * Damage: 32 Laser
 
-The tiers are determined by comparing the differences in the Iron and Steel Axe
-in the base game. The tiers stats are calculated using the following and are
-rounded down to the nearest whole number.
+The tiers are determined by comparing the differences between the Iron and 
+Steel Axe in the base game. The tier stats are calculated using the following 
+factors and are rounded down to the nearest whole number.
 
 * Durability: 5000 (Steel) - 4000 (Iron) = 1000, additive scaling
 * Damage: 8 (Steel) / 5 (Iron) = 1.6, multiplicative scaling
