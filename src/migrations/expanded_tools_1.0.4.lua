@@ -13,7 +13,5 @@ function unlock(force, recipe, technology)
 end
 
 for i, force in pairs(game.forces) do
-    unlock(force, 'jackhammer', 'engine')
-    unlock(force, 'laser-drill', 'laser')
-    unlock(force, 'atomic-disassembler', 'alien-technology')
+    unlock(force, 'atomic-disassembler', 'nuclear-power')
 end

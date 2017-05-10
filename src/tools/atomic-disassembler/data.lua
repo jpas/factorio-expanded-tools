@@ -2,7 +2,7 @@ require 'lib.tool'
 require 'lib.recipe'
 
 name = 'atomic-disassembler'
-technology = 'alien-technology'
+technology = 'nuclear-power'
 
 data:extend({
     tool(name, 4, 'laser'),
@@ -10,7 +10,7 @@ data:extend({
         { 'steel-plate', 20 },
         { 'battery', 10 },
         { 'processing-unit', 5 },
-        { 'alien-artifact', 10 }
+        { 'uranium-235', 5 }
     })
 })
 
