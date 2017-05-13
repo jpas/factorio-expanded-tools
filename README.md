@@ -15,18 +15,18 @@ These are the new tiers:
     * __Recipe__ 10x Steel plate, 5x Advanced circuit, 5x Battery
     * __Required Tech__ Laser
     * __Mining Power__ 10
-    * __Durability__ 7000 
-    * __Damage__ 20 Laser 
+    * __Durability__ 7000
+    * __Damage__ 20 Laser
 3. Atomic Disassembler
-    * __Recipe__ 20x Steel plate, 10x Battery, 5x Processing unit, 10x Alien
-      Artifact
+    * __Recipe__ 20x Steel plate, 10x Battery, 5x Processing unit, 5x
+      Uranium-235
     * __Required Tech__ Alien Technology
     * __Mining Power__ 16
-    * __Durability__ 8000 
+    * __Durability__ 8000
     * __Damage__ 32 Laser
 
-The tiers are determined by comparing the differences between the Iron and 
-Steel Axe in the base game. The tier stats are calculated using the following 
+The tiers are determined by comparing the differences between the Iron and
+Steel Axe in the base game. The tier stats are calculated using the following
 factors and are rounded down to the nearest whole number.
 
 * __Durability__ 5000 (Steel) - 4000 (Iron) = 1000, additive scaling
