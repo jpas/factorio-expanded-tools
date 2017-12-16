@@ -39,6 +39,7 @@ function tool(name, tier, damage_type)
         type = 'mining-tool',
         name = name,
         icon = '__expanded_tools__/tools/' .. name .. '/icon.png',
+        icon_size = 32,
         flags = { 'goes-to-main-inventory' },
         action = {
             type = 'direct',
